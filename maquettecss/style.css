@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: sticky;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  #tittlenav {
+    padding-right: 60px;
+    color: red;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    display: inline;
+    font-size: 50px;
+}
+  
+  .anav {
+    display: block;
+    color: #534775;
+    text-align: center;
+    font-weight: bold;
+    align-items: center;
+    font-family: 'Roboto', sans-serif ;
+    padding: 14px 30px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    color: blue;
+  }
+
+  #navul {
+    display: inline;
+    margin-top: auto;
+    padding-left: 70px;
+  }
+  #navbar {
+    display: flex;
+    padding-top: 20px;
+    padding-left: 40px;
+  }
+
+  #bg {
+    width: 100%;
+    height: 100%;
+    background-color: beige;
+    position: absolute;
+  }
+  #bg2 {
+    width: 35%;
+    margin-left: 65vw;
+    height: 100%;
+    background-color: red;
+    position: absolute;
+  }
+
+
+  #frontext {
+    margin-top: 15vh;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    padding-left: 20px;
+    height: max-content;
+  }
+
+#logo {
+    transform: scale(0.7);
+    position: absolute;
+    top: 20%;
+    margin-left: 65vw;
+    transform: translate(-230px) scale(0.8);
+}
+
+#buttonsection {
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+    padding-right:30px;
+    margin-top: 50px;
+}
+
+#butnext {
+    background-color: pink;
+    width: 50px;
+    height: 50px;
+    font-size: 2em;
+    border-radius: 20px;
+    position: relative;
+}
+#logoface {
+    position: absolute;
+    top: 20%;
+    margin-left: 65vw;
+    transform: translateY(90px) scale(0.7);
+    visibility: hidden;
+}
+#facevelo {
+    position: absolute;
+    top: 20%;
+    margin-left: 65vw;
+    transform: translateY(75px) scale(0.7);
+    visibility: hidden;
+}
+
+#plorem {
+    position: relative;
+    font-family: "Roboto", sans-serif;
+}
+
+#loremsection {
+    padding-left: 20px;
+    display: flex;
+    padding-right:30px;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+#profil {
+  width: 40px;
+  height: 40px;
+}
