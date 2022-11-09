@@ -93,11 +93,13 @@ ul {
 }
 
 #butnext {
-    background-color: pink;
+    background-color: transparent;
     width: 50px;
     height: 50px;
+    font-weight: bold;
     font-size: 2em;
     border-radius: 20px;
+    border: 3px solid;
     position: relative;
 }
 #logoface {
@@ -131,4 +133,16 @@ ul {
 #profil {
   width: 40px;
   height: 40px;
+}
+
+#consult {
+  transition-timing-function: ease-in-out;
+  transition-duration: .2s;
+  background-color: transparent;
+}
+#consult:hover {
+  background-color: pink;
+  color: #534775;
+  animation: ease-in-out;
+
 }
