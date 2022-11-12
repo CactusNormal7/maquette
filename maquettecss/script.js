@@ -4,6 +4,8 @@ let facebus = document.getElementById("logoface")
 let facevelo = document.getElementById("facevelo")
 let indent = 0
 let maxindent = 2
+let profil = document.getElementById("buttonprofil")
+let wrap = document.getElementById("wrap")
 
 nextbutton.onclick = () => {
     if (indent >= maxindent) {
@@ -26,4 +28,15 @@ function test () {
         facevelo.style.visibility = "hidden"
         facebus.style.visibility = "hidden"
     }
+}
+
+
+profil.onclick = () => {
+    togglemenu()
+}
+
+
+function togglemenu() {
+    console.log("oui")
+    wrap.classList.toggle("toggle")
 }

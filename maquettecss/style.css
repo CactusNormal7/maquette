@@ -144,5 +144,30 @@ ul {
   background-color: pink;
   color: #534775;
   animation: ease-in-out;
+}
 
+#buttonprofil {
+  background-color: transparent; 
+  border: 0px;
+}
+
+#buttonprofil:hover{
+  opacity: 60%;
+}
+
+.submenuwrap {
+  position: absolute;
+  right: 4%;
+  visibility: visible;
+  width: 320px;
+}
+
+.submenuwrap.toggle {
+  visibility: hidden;
+}
+
+.submenu {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: gray;
 }
